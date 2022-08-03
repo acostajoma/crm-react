@@ -1,7 +1,7 @@
 {
   "clientes": [
     {
-      "nombre": "Jose",
+      "nombre": "Jose Martin",
       "empresa": "Joseacosta.dev",
       "email": "contact@joseacosta.dev",
       "telefono": "92393204",
@@ -9,7 +9,7 @@
       "id": 1
     },
     {
-      "nombre": "Juan",
+      "nombre": "Juan Pablo",
       "empresa": "juan@correo.com",
       "email": "juan@correo.com",
       "telefono": "92393204",
@@ -31,6 +31,22 @@
       "telefono": "22312312",
       "notas": "Macbook W",
       "id": 4
+    },
+    {
+      "nombre": "Juan Ca",
+      "empresa": "Caa",
+      "email": "ca.ca@gmail.com",
+      "telefono": "3123231",
+      "notas": "Mac",
+      "id": 5
+    },
+    {
+      "nombre": "Edgar",
+      "empresa": "asdkaod",
+      "email": "dafad@asdas.com",
+      "telefono": "312231231",
+      "notas": "Macbook mini m2",
+      "id": 6
     }
   ]
 }
