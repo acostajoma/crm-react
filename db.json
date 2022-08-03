@@ -7,6 +7,30 @@
       "telefono": "92393204",
       "notas": "Macbook pro ",
       "id": 1
+    },
+    {
+      "nombre": "Juan",
+      "empresa": "juan@correo.com",
+      "email": "juan@correo.com",
+      "telefono": "92393204",
+      "notas": "Mac mini",
+      "id": 2
+    },
+    {
+      "nombre": "Marco",
+      "empresa": "marquinhos",
+      "email": "ma@correo.com",
+      "telefono": "12312312",
+      "notas": "Macbook air",
+      "id": 3
+    },
+    {
+      "nombre": "Bob",
+      "empresa": "Square pants",
+      "email": "bob@square.com",
+      "telefono": "22312312",
+      "notas": "Macbook W",
+      "id": 4
     }
   ]
 }

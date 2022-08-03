@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom"
 import { Formik, Form, Field } from "formik"
 import * as Yup from 'yup'
 import Alerta from "./Alerta"
 
 const Formulario = () => {
+
+    const navigate = useNavigate()
 
     const clienteSchema = Yup.object().shape({
         nombre: Yup.string()
@@ -22,7 +25,7 @@ const Formulario = () => {
 
     const handleSubmit = async (valores) => {
         try {
-            const url = 'http://localhost:3000/clientes'
+            const url = 'http://localhost:3551/clientes'
             const respuesta = await fetch(url, {
                 method : "POST",
                 body : JSON.stringify(valores),
@@ -31,7 +34,7 @@ const Formulario = () => {
                 }
             })
             const resultado = await respuesta.json()
-            console.log(resultado)
+            navigate('/clientes')
         } catch (error) {
             console.log(error)
         }
@@ -49,7 +52,10 @@ const Formulario = () => {
                     telefono: '',
                     notas: ''
                 }}
-                onSubmit={ (values) => handleSubmit(values)}
+                onSubmit={ async (values, {resetForm}) => {
+                    await handleSubmit(values)
+                    resetForm()
+                }}
                 validationSchema={clienteSchema}
             >
                 {({errors, touched}) => {
