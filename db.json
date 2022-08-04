@@ -31,22 +31,6 @@
       "telefono": "22312312",
       "notas": "Macbook W",
       "id": 4
-    },
-    {
-      "nombre": "Juan Ca",
-      "empresa": "Caa",
-      "email": "ca.ca@gmail.com",
-      "telefono": "3123231",
-      "notas": "Mac",
-      "id": 5
-    },
-    {
-      "nombre": "Edgar",
-      "empresa": "asdkaod",
-      "email": "dafad@asdas.com",
-      "telefono": "312231231",
-      "notas": "Macbook mini m2",
-      "id": 6
     }
   ]
 }
