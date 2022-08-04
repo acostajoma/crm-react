@@ -1,11 +1,11 @@
 {
   "clientes": [
     {
-      "nombre": "Test",
-      "empresa": "Test",
-      "email": "test@test.com",
-      "telefono": "123123123",
-      "notas": "Testing the app",
+      "nombre": "Jose Acosta",
+      "empresa": "joseacosta.dev",
+      "email": "contacto@joseacosta.dev",
+      "telefono": "232312312",
+      "notas": "Busca una macbook pro ",
       "id": 1
     }
   ]
