@@ -1,36 +1,12 @@
 {
   "clientes": [
     {
-      "nombre": "Jose Martin",
-      "empresa": "Joseacosta.dev",
-      "email": "contact@joseacosta.dev",
-      "telefono": "92393204",
-      "notas": "Macbook pro ",
+      "nombre": "Test",
+      "empresa": "Test",
+      "email": "test@test.com",
+      "telefono": "123123123",
+      "notas": "Testing the app",
       "id": 1
-    },
-    {
-      "nombre": "Juan Pablo",
-      "empresa": "juan@correo.com",
-      "email": "juan@correo.com",
-      "telefono": "92393204",
-      "notas": "Mac mini",
-      "id": 2
-    },
-    {
-      "nombre": "Marco",
-      "empresa": "marquinhos",
-      "email": "ma@correo.com",
-      "telefono": "12312312",
-      "notas": "Macbook air",
-      "id": 3
-    },
-    {
-      "nombre": "Bob",
-      "empresa": "Square pants",
-      "email": "bob@square.com",
-      "telefono": "22312312",
-      "notas": "Macbook W",
-      "id": 4
     }
   ]
 }
